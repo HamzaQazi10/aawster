@@ -1,0 +1,49 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude override files as they are usually intended to be used locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do not wish to be ignored in your version control
+# !example_override.tf
+
+# Exclude any .terraformrc or terraform.rc files in the working directory
+terraform.rc
+.terraformrc
+
+# Exclude sensitive files
+*.tfvars
+*.tfvars.json
+
+# Include specific files if needed
+# !example.tfvars
+
+# Exclude auto-generated plan files
+*.plan
+
+# Exclude CLI configuration files
+.terraform.d/
+.terraformrc
+terraform.tfstate.backup
+
+# Ignore SSH keys (if any)
+*.pem
+*.key
+
+# Ignore temporary files and directories
+*.tmp
+*.swp
+*.bak
+*.log
+.DS_Store
